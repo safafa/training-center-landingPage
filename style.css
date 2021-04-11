@@ -46,7 +46,7 @@
   font-family: var(--coco);
 }
 
-.sec-header:after {
+.sec-header::after {
   content: ""; /* This is necessary for the pseudo element to work. */
   display: block; /* This will put the pseudo element on its own line. */
   margin: 0 auto; /* This will center the border. */
@@ -55,7 +55,7 @@
   border-bottom: 1px solid var(--red); /* This creates the border. Replace black with whatever color you want. */
 }
 
-.desc:after {
+.desc::after {
   content: ""; /* This is necessary for the pseudo element to work. */
   display: block; /* This will put the pseudo element on its own line. */
   width: 15px; /* Change this to whatever width you want. */
@@ -83,7 +83,34 @@
   padding: 25px 10px;
 }
 
+.transparent {
+  font-size: 2em;
+}
 /* Main services */
 .service {
   background-color: #b6b3b350;
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: row nowrap;
+  justify-content: space-between;
+}
+
+.service h6 {
+  text-align: center;
+  margin: auto 10px;
+  max-width: 30%;
+  text-transform: capitalize;
+}
+
+.servive img {
+  max-width: 2vw;
+  height: 2vw;
+  margin: 10px 10px;
+}
+
+.service p {
+  width: auto;
+  font-size: 11px;
+  align-self: flex-end;
+  margin: 10px 10px;
 }
