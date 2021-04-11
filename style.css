@@ -12,6 +12,16 @@
   --coco: "Cocogoose Condensed";
 }
 
+.bg-lg {
+  background-image: url("images/bg-lg.jpg");
+}
+
+.bg-dg {
+  background-image: url("images/bg-dg.jpg");
+  width: 100%;
+  padding: 25px 10px;
+}
+
 /* Colors background and text */
 .bg-red {
   background-color: var(--red);
