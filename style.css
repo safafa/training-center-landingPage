@@ -1,5 +1,5 @@
 /* Lato */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 /* cocogoose */
 @import url("https://db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE");
@@ -8,4 +8,67 @@
   --black: #272a31;
   --red: #ec5242;
   --grey: #d3d3d3;
+  --lato: "Lato", sans-serif;
+  --coco: "Cocogoose Condensed";
+}
+
+/* Colors background and text */
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+/* font family */
+.lato {
+  font-family: var(--lato);
+}
+
+.coco {
+  font-family: var(--coco);
+}
+
+.sec-header:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 30px; /* Change this to whatever width you want. */
+  padding-top: 10px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid var(--red); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.desc:after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 15px; /* Change this to whatever width you want. */
+  padding-top: 10px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid var(--grey); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.subdsc {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bpad {
+  padding: 20px 100px;
+  width: 100%;
 }
