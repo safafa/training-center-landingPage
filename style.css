@@ -3,3 +3,9 @@
 
 /* cocogoose */
 @import url("https://db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE");
+
+:root {
+  --black: #272a31;
+  --red: #ec5242;
+  --grey: #d3d3d3;
+}
