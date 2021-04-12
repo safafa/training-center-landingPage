@@ -206,4 +206,27 @@
     align-self: flex-end;
     margin: 10px 10px;
   }
+
+  .title {
+    width: 75%;
+    margin: 0 0 0 150px;
+  }
+
+  .title header {
+    width: 90%;
+  }
+
+  .title p {
+    max-width: 85%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title header {
+    width: 80%;
+  }
+
+  .title p {
+    max-width: 60%;
+  }
 }
