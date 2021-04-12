@@ -75,6 +75,7 @@
 
 .bg-lg {
   background-image: url("images/bg-lg.jpg");
+  height: auto;
 }
 
 .bg-dg {
@@ -143,4 +144,18 @@
 
 .mem-text p {
   font-size: 11px;
+}
+
+/* About page */
+.event {
+  background-image: linear-gradient(var(--red), #ec534285),
+    url("images/event.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
