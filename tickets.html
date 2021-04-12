@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="style.css">
     <title>Tickets</title>
 </head>
-<body class="bg-lg">
-    <header class="mb-5">
-        <div class="btn-group d-lg-none">
+<body class="bg-light">
+    <header class="mb-5 bg-white">
+        <div class="btn-group d-lg-none nav-phone">
             <button type="button" class="btn border-0 " data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fas fa-bars"></i>
             </button>
@@ -26,5 +26,71 @@
             </ul>
           </div>
     </header>
+    <main>
+        <section class="mb-5" ><header>
+            <h6 class="sec-header lato fw-bold text-center text-dark mx-auto p-2">Select Tickets</h6>
+        </header>
+        <table class="table table-bordered table-responsive border-danger w-100 text-center">
+            <thead>
+              <tr>
+                <th scope="col">Tickets</th>
+                <th scope="col">Lecture</th>
+                <th scope="col">Workshop</th>
+                <th scope="col">Ignite</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Date</th>
+                <td>15/04/2021</td>
+                <td>20/04/2021</td>
+                <td>01/05/2021</td>
+              </tr>
+              <tr>
+                <th scope="row">Untermediate</th>
+                <td>100$
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                    </label>
+                  </div></td>
+                <td>200$<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                    </label>
+                  </div></td>
+                <td>20$<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                    <label class="form-check-label" for="flexRadioDefault3">
+                    </label>
+                  </div></td>
+              </tr>
+              <tr>
+                <th scope="row">Advanced</th>
+                <td>200$<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                    <label class="form-check-label" for="flexRadioDefault4">
+                    </label>
+                  </div></td>
+                <td>400$<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+                    <label class="form-check-label" for="flexRadioDefault5">
+                    </label>
+                  </div></td>
+                <td>20$<div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
+                    <label class="form-check-label " for="flexRadioDefault6">
+                    </label>
+                  </div></td>
+              </tr>
+            </tbody>
+          </table>
+          <!--Join us-->
+        <a class="btn text-white lato rounded-0 p-3 bg-red w-100 fs-6 mt-4" href="./tickets.html" role="button">Buy Ticket</a>
+    </section>
+    </main>
+    <footer class="bg-white p-5 w-100 text-center">
+        <p>CC creative commons  Design idea  belongs to Cindy  Shin</p>
+    </footer>
 </body>
 </html>
