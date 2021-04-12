@@ -87,12 +87,13 @@
 .transparent {
   font-size: 2em;
 }
+
 /* Main services */
 .service {
   background-color: #b6b3b350;
   margin-bottom: 10px;
   display: flex;
-  flex-wrap: row nowrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
 
@@ -120,7 +121,7 @@
 /* Our team */
 .member {
   display: flex;
-  flex-wrap: row nowrap;
+  flex-flow: row nowrap;
   margin: 30px 5px;
 }
 
@@ -131,7 +132,7 @@
   background-repeat: no-repeat;
   background-position: 25% 10%;
   background-size: 50px;
-  margin: 0 20px 10px 0px;
+  margin: 0 20px 10px 0;
 }
 
 .mem-img img {
@@ -158,4 +159,10 @@
   margin: auto;
   display: flex;
   justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .background {
+    background-color: white;
+  }
 }
