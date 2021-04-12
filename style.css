@@ -103,9 +103,10 @@
 }
 
 .servive img {
-  max-width: 2vw;
-  height: 2vw;
+  width: 10px;
+  height: auto;
   margin: 10px 10px;
+  background-color: lawngreen;
 }
 
 .service p {
@@ -113,4 +114,33 @@
   font-size: 11px;
   align-self: flex-end;
   margin: 10px 10px;
+}
+
+/* Our team */
+.member {
+  display: flex;
+  flex-wrap: row nowrap;
+  margin: 30px 5px;
+}
+
+.mem-img {
+  position: relative;
+  width: 200px;
+  background-image: url("images/bw.jpg");
+  background-repeat: no-repeat;
+  background-position: 25% 10%;
+  background-size: 50px;
+  margin: 0 20px 10px 0px;
+}
+
+.mem-img img {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 120px;
+  max-height: 90%;
+}
+
+.mem-text p {
+  font-size: 11px;
 }
