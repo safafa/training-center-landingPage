@@ -214,6 +214,33 @@
   .title p {
     max-width: 85%;
   }
+
+  /* about */
+  .title-about {
+    width: 75%;
+    margin: auto;
+  }
+
+  .title-about header {
+    width: 50%;
+    margin: auto;
+  }
+
+  .title-about p {
+    max-width: 65%;
+    margin: auto;
+  }
+
+  .events {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .event {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -232,5 +259,16 @@
 
   .title p {
     max-width: 60%;
+  }
+
+  .events {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 50%;
+    margin: auto;
+    justify-content: space-between;
+  }
+  .event {
+    margin: 0;
   }
 }
