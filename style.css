@@ -171,4 +171,39 @@
   .navbar-nav {
     margin: 0 auto;
   }
+
+  /* Main services */
+  .service {
+    background-color: #b6b3b350;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 24%;
+    margin-right: 1px;
+  }
+
+  .service h6 {
+    text-align: center;
+    margin: auto 10px;
+    width: auto;
+    text-transform: capitalize;
+    align-self: center;
+  }
+
+  .servive img {
+    align-self: flex-start;
+    width: 10px;
+    height: 10px;
+    margin: 10px 10px;
+    background-color: lawngreen;
+  }
+
+  .service p {
+    width: auto;
+    font-size: 11px;
+    align-self: flex-end;
+    margin: 10px 10px;
+  }
 }
