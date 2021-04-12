@@ -100,22 +100,25 @@
 .service h6 {
   text-align: center;
   margin: auto 10px;
-  max-width: 30%;
+  width: 25%;
   text-transform: capitalize;
+  align-self: center;
 }
 
 .servive img {
-  width: 10px;
+  align-self: flex-start;
+  width: 25vw;
   height: auto;
   margin: 10px 10px;
   background-color: lawngreen;
 }
 
 .service p {
-  width: auto;
-  font-size: 11px;
+  width: 50vw;
+  font-size: 0.7em;
   align-self: flex-end;
   margin: 10px 10px;
+  align-self: flex-end;
 }
 
 /* Our team */
