@@ -115,10 +115,9 @@
 
 .service p {
   width: 50vw;
-  font-size: 0.7em;
+  font-size: 11px;
   align-self: flex-end;
   margin: 10px 10px;
-  align-self: flex-end;
 }
 
 /* Our team */
@@ -167,5 +166,9 @@
 @media screen and (min-width: 768px) {
   .background {
     background-color: white;
+  }
+
+  .navbar-nav {
+    margin: 0 auto;
   }
 }
