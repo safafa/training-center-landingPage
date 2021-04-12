@@ -215,7 +215,7 @@
     background-repeat: no-repeat;
     background-position: 25% 10%;
     background-size: 50px;
-    margin: 0 35px 10px 0;
+    margin: 0 10px 10px 0;
   }
 
   .mem-img img {
@@ -245,10 +245,10 @@
   .mem-img img {
     position: absolute;
     top: 15%;
-    left: 25%;
+    left: 30%;
     width: 120px;
     height: 90%;
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .title header {
     width: 80%;
