@@ -93,6 +93,10 @@
 }
 
 /* Main services */
+.services {
+  width: 100%;
+}
+
 .service {
   background-color: #b6b3b350;
   margin-bottom: 10px;
@@ -176,6 +180,10 @@
   }
 
   /* Main services */
+  .services {
+    width: 75%;
+  }
+
   .service {
     flex-flow: column nowrap;
     align-items: center;
