@@ -57,7 +57,7 @@
   color: var(--black);
 }
 
-/* I copied this code from a titoriel showing how to create small border for an element */
+/* I copied this code from a tutorial showing how to create small border for an element */
 .sec-header::after {
   content: ""; /* This is necessary for the pseudo element to work. */
   display: block; /* This will put the pseudo element on its own line. */
