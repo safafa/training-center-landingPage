@@ -170,7 +170,7 @@
 
 /* About page */
 .event {
-  background-image: 
+  background-image:    
     linear-gradient(var(--red), #ec534285),
     url("images/event.jpg");
   background-repeat: no-repeat;
