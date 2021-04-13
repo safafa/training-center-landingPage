@@ -46,12 +46,6 @@
   font-family: var(--coco);
 }
 
-.logo {
-  width: 100px;
-  height: 50px;
-  padding: 0 0 0 0;
-}
-
 .bg-footer {
   background-color: white;
   color: var(--black);
@@ -183,7 +177,22 @@
   justify-content: center;
 }
 
+.logo {
+  display: none;
+}
+
+.table {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 @media screen and (min-width: 768px) {
+  .logo {
+    display: block;
+    width: 100px;
+    height: 50px;
+    padding: 0 0 0 0;
+  }
+
   .background {
     background-color: white;
   }
