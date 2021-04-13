@@ -5,9 +5,9 @@
 > Capstone HTML&CSS: This is a teck trainning center landing page. I created this project following the design  of Cindy Shin in Behance.
 The website contains three pages, Home page, about us and tickets page.
 
-![screenshot](image/homelg.png)
-![screenshot](image/aboutlg.png)
-![screenshot](image/tickets.png)
+![screenshot](images/homelg.png)
+![screenshot](images/aboutlg.png)
+![screenshot](images/tickets.png)
 
 Project requirements included using semantic HTML, Bootstrap CSS and Media Queries with 2 breakpoints.
 
