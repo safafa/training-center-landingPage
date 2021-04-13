@@ -2,14 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 /* cocogoose */
-@import url("https://db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE");
+@import url("https://db.onlinewebfonts.com/c/b4e46f03d0e03a9192dc3c2ad1a4e104?family=Cocogoose");
 
 :root {
   --black: #272a31;
   --red: #ec5242;
   --grey: #d3d3d3;
   --lato: "Lato", sans-serif;
-  --coco: "Cocogoose Condensed";
+  --coco: "Cocogoose";
 }
 
 /* Colors background and text */
@@ -70,7 +70,7 @@
 
 .bpad {
   padding: 20px 100px;
-  width: 100%;
+  width: 90%;
 }
 
 .bg-lg {
@@ -86,6 +86,10 @@
 
 .transparent {
   font-size: 2em;
+}
+
+.title p {
+  font-size: 11px;
 }
 
 /* Main services */
