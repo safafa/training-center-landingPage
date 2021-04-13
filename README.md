@@ -19,7 +19,7 @@ I created this project following the [design](https://www.behance.net/gallery/29
 - Bootstrap
 - CSS3 Media Queries
 
-## Backgroungs and Icons 
+## Backgrounds and Icons 
 - I downloaded the background images from [wallpaperaccess](https://wallpaperaccess.com/)
 - I used Icons from Fontawesome and from [icons8](https://icons8.com/)
 
