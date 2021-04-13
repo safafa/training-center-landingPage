@@ -262,6 +262,7 @@
     margin: auto;
     justify-content: space-between;
   }
+
   .event {
     margin: 0;
   }
@@ -282,6 +283,7 @@
     height: 90%;
     margin-right: 5px;
   }
+
   .title header {
     width: 80%;
   }
@@ -297,6 +299,7 @@
     margin: auto;
     justify-content: space-between;
   }
+
   .event {
     margin: 0;
   }
