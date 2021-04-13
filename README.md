@@ -10,8 +10,8 @@ The website contains three pages, Home page, about us and tickets page.
 ![screenshot](images/tickets.png)
 
 Project requirements included using semantic HTML, Bootstrap CSS and Media Queries with 2 breakpoints.
-I created this project following the design  of Cindy Shin in Behance.
-[Design Link](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+I created this project following the [design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) of Cindy Shin in Behance.
+
 
 ## Built With
 
