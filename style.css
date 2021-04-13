@@ -46,6 +46,18 @@
   font-family: var(--coco);
 }
 
+.logo {
+  width: 100px;
+  height: 50px;
+  padding: 0 0 0 0;
+}
+
+.bg-footer {
+  background-color: white;
+  color: var(--black);
+}
+
+/* I copied this code from a titoriel showing how to create small border for an element */
 .sec-header::after {
   content: ""; /* This is necessary for the pseudo element to work. */
   display: block; /* This will put the pseudo element on its own line. */
@@ -252,6 +264,11 @@
   }
   .event {
     margin: 0;
+  }
+
+  .bg-footer {
+    background-color: var(--black);
+    color: white;
   }
 }
 
