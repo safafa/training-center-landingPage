@@ -110,7 +110,15 @@
 }
 
 .title p {
-  font-size: 11px;
+  font-size: 2.5vw;
+}
+
+.open {
+  font-size: 5vw;
+}
+
+.local {
+  font-size: 3vw;
 }
 
 /* Main services */
@@ -256,13 +264,25 @@
     margin: 0 0 0 150px;
   }
 
-  .title header {
+  .title hgroup {
     width: 90%;
   }
 
   .title p {
-    max-width: 85%;
-    font-size: 12px;
+   width: 85%;
+    font-size: 1.5vw;
+  }
+
+  .title span {
+    width:50%;
+  }
+
+  .open {
+    font-size: 2.5vw;
+  }
+  
+  .local {
+    font-size: 2vw;
   }
 
   /* about */
@@ -310,12 +330,21 @@
     margin-right: 5px;
   }
 
-  .title header {
+  .title hgroup {
     width: 80%;
   }
 
   .title p {
-    max-width: 60%;
+    width: 60%;
+    font-size: 0.9vw;
+  }
+
+  .open {
+    font-size: 1.5vw;
+  }
+  
+  .local {
+    font-size: 1vw;
   }
 
   .events {
