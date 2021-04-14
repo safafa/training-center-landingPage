@@ -1,9 +1,9 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Capstone poroject Teck Trainning Center
+# Capstone project Teck Training Center
 
-> Capstone HTML&CSS: This is a teck trainning center landing page.
-The website contains three pages, Home page, about us and tickets page.
+> Capstone HTML&CSS: This is a teck training center landing page.
+The website contains three pages, the home page, the about us, and the tickets page.
 
 ![screenshot](images/homelg.png)
 ![screenshot](images/aboutlg.png)
