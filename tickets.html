@@ -56,82 +56,93 @@
     </nav>
   </header>
   <main>
+    <!--Slect Tickets-->
     <section class="mb-5 mx-5">
       <h1 class="sec-header lato fw-bold text-center text-dark mx-auto p-2 mb-5">Select Tickets</h1>
-      <div class="step">
-        <p class="my-auto w-100"><span class="text-red">Step 1 </span> Please select the date when you want to join</p>
+      <div class="container-fluid text-nowrap mx-auto d-flex">
+        <div class="step">
+          <p class="my-auto w-100"><span class="text-red">Step 1 </span> Please select the date when you want to join
+          </p>
+        </div>
       </div>
-      <table class="table bg-white table-bordered border-secondary table-responsive  text-center">
-        <thead class="table-active">
-          <tr>
-            <th scope="col">Tickets</th>
-            <th scope="col">Lecture</th>
-            <th scope="col">Workshop</th>
-            <th scope="col">Ignite</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Date</th>
-            <td>15/04/2021</td>
-            <td>20/04/2021</td>
-            <td>01/05/2021</td>
-          </tr>
-          <tr>
-            <th scope="row">Untermediate</th>
-            <td>
-              <div class="form-check mx-auto w-25">
-                <label class="form-check-label mx-auto" for="flexRadioDefault1">
-                  100$
-                </label>
-                <input class="form-check-input mx-auto" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              </div>
-            </td>
-            <td>
-              <div class="form-check mx-auto w-25">
-                <label class="form-check-label mx-auto" for="flexRadioDefault2">
-                  200$
-                </label>
-                <input class="form-check-input mx-auto" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-              </div>
-            </td>
-            <td>
-              <div class="form-check mx-auto w-25">
-                <label class="form-check-label mx-auto" for="flexRadioDefault3">20$
-                </label>
-                <input class="form-check-input mx-auto" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-              </div>
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">Advanced</th>
-            <td>
-              <div class="form-check mx-auto w-25">
-                <label class="form-check-label mx-auto" for="flexRadioDefault4">200$
-                </label>
-                <input class="form-check-input mx-auto" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-              </div>
-            </td>
-            <td>
-              <div class="form-check mx-auto w-25">
-                <label class="form-check-label mx-auto" for="flexRadioDefault5">400$
-                </label>
-                <input class="form-check-input mx-auto" type="radio" name="flexRadioDefault" id="flexRadioDefault5">
-              </div>
-            </td>
-            <td>
-              <div class="form-check mx-auto w-25">
-                <label class="form-check-label mx-auto " for="flexRadioDefault6">20$
-                </label>
-                <input class="form-check-input mx-auto" type="radio" name="flexRadioDefault" id="flexRadioDefault6">
-              </div>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="tablet lato">
+        <h5 class="item">Tickets</h5>
+        <h5 class="item">Lecture</h5>
+        <h5 class="item">Workshop</h5>
+        <h5 class="item">Ignite</h5>
+        <h5 class="item bg-white">Date</h5>
+        <h6 class="item bg-white">15/04/2021</h6>
+        <h6 class="item bg-white">20/04/2021</h6>
+        <h6 class="item bg-white">01/05/2021</h6>
+        <h6 class="item bg-white">Intermediate</h6>
+        <div class="form-check item bg-white text-red fw-bold d-flex flex-column">
+          <label for="flexRadioDefault1">
+            200$
+          </label>
+          <input type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+        </div>
+        <div class="form-check item bg-white text-red fw-bold d-flex flex-column">
+          <label for="flexRadioDefault2">
+            200$
+          </label>
+          <input type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+        </div>
+        <div class="form-check ignit item bg-white text-red fw-bold d-flex flex-column">
+          <label for="flexRadioDefault3">
+            20$
+          </label>
+          <input type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+        </div>
+        <h6 class="item bg-white">Advanced</h6>
+        <div class="form-check item bg-white text-red fw-bold d-flex flex-column">
+          <label for="flexRadioDefault4">
+            200$
+          </label>
+          <input type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+        </div>
+        <div class="form-check item bg-white text-red fw-bold d-flex flex-column">
+          <label for="flexRadioDefault5">
+            200$
+          </label>
+          <input type="radio" name="flexRadioDefault" id="flexRadioDefault5">
+        </div>
+      </div>
+    </section>
+    <!--Slect Lunch-->
+    <section class="pb-5 bg-white">
+      <h1 class="sec-header lato fw-bold text-center text-dark mx-auto p-2 mb-5">Select Activity</h1>
+      <div class="container-fluid mx-auto d-flex">
+        <div class="step">
+          <p class="my-auto w-100"><span class="text-red">Step 2</span> Please select a side activity
+          </p>
+        </div>
+      </div>
+      <div class="activities">
+        <div class="form-check">
+          <label for="activity1">
+            Activity
+          </label>
+          <input type="radio" name="flexRadioDefault" id="activity1">
+        </div>
+        <div class="form-check">
+          <label for="activity2">
+            Activity
+          </label>
+          <input type="radio" name="flexRadioDefault" id="activity2">
+        </div>
+        <div class="form-check">
+          <label for="activity3">
+            Activity
+          </label>
+          <input type="radio" name="flexRadioDefault" id="activity3">
+        </div>
+      </div>
       <!--Join us-->
-      <a class="btn text-white lato rounded-0 p-3 bg-red w-100 fs-6 mt-4" href="./tickets.html" role="button">Buy
-        Ticket</a>
+      <div class="mx-auto d-flex">
+        <a class="btn text-white lato rounded-0 p-3 bg-red w-25 mx-auto fs-6 mt-4" href="./tickets.html"
+          role="button">Buy
+          Ticket</a>
+      </div>
     </section>
   </main>
   <footer class="bg-footer pb-1 w-100 text-center">
