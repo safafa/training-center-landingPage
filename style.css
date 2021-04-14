@@ -102,7 +102,7 @@
 .bg-dg {
   background-image: url("images/bg-dg.jpg");
   width: 100%;
-  padding: 25px 10px;
+  padding: 50px 10px;
 }
 
 .transparent {
@@ -233,20 +233,15 @@
     flex-flow: column nowrap;
     align-items: center;
     width: 24%;
-    margin-right: 1px;
   }
 
   .service h6 {
     width: auto;
   }
 
-  .servive img {
-    width: 10px;
-    height: 10px;
-  }
-
   .service p {
     width: auto;
+    text-align: center;
   }
 
   /* Our team */
@@ -357,5 +352,15 @@
 
   .event {
     margin: 0;
+  }
+
+  /* Main services */
+  .services {
+    width: 45%;
+  }
+
+  .service {
+    width: 22%;
+    height: auto;
   }
 }
