@@ -37,6 +37,21 @@
   color: var(--grey);
 }
 
+#navborder {
+  border-style: solid;
+  border-color: var(--red);
+  text-align: center;
+  color: #ec5242;
+}
+
+.nav-link:active {
+  color: var(--red);
+}
+
+.navwidth {
+  width: 41%;
+}
+
 /* font family */
 .lato {
   font-family: var(--lato);
