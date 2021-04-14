@@ -362,7 +362,7 @@
     flex-flow: row nowrap;
     width: 90%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .event {
@@ -416,9 +416,9 @@
   .events {
     display: flex;
     flex-flow: row nowrap;
-    width: 50%;
+    width: 65%;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .event {
