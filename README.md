@@ -27,6 +27,10 @@ I created this project following the [design](https://www.behance.net/gallery/29
 
 [Live Demo Link](https://safafa.github.io/capstone-training-center/index.html)
 
+## Getting Started
+
+To get a local copy up and running you only need to clone this repository.
+
 ## Author
 
 👤 **Safa Aballagh**
