@@ -1,17 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <title>Trainig center landing page</title>
-</head>
-<body>
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Trainig center landing page</title>
+</head>
+
+<body class="bg-lg">
+  <header class="mb-5">
+    <div class="d-none d-md-block">
+      <nav class="d-flex flex-row justify-content-end bg-black ">
+        <div class="d-flex justify-content-start navwidth">
+          <a href="#" class="me-3"><i class="fab fa-facebook-f link-light"></i></a>
+          <a href="#" class="me-3"><i class="fab fa-twitter link-light"></i></a>
+          <a href="#" class="me-3 text-decoration-none link-light lato">French</a>
+          <a href="#" class="me-3 text-decoration-none link-light lato">Arabic</a>
+        </div>
+      </nav>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light background px-md-5">
+      <div class="container-fluid">
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <a class="navbar-brand" href="index.html"><img src="images/TTC.png" alt="logo" class="logo"></a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active mx-md-4" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-md-4 text-nowrap" aria-current="page" href="./about.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active mx-md-4 " aria-current="page" href="./tickets.html">Tickets</a>
+            </li>
+            <li class="nav-item px-md-5 py-0 text-center d-none d-md-block">
+              <a id="navborder" class="nav-link active ms-md-5 text-red  py-md-1 " aria-current="page"
+                href="./tickets.html">Sponsor</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--Title & description-->
+    <section class="p-2 mb-5 title d-flex flex-column">
+      <div class="hgroup">
+        <span class="text-red lato fs-5">"Hello! Tech enthusiasts"</span>
+        <h1 class="text-red lato text-uppercase fw-bold transparent">Tech training center
+          online workshops
+          spring 2021</h1>
+      </div>
+      <p class="border border-2 border-light text-left p-3 coco">Young and motivated team ready to share its know-how.
+        Our services are available online
+        starting on April Join us!</p>
+      <span class="text-secondary fw-bold open">Open Mon to Fri 8am-6pm</span>
+      <span class="text-secondary local">Rabat Agdal</span>
+    </section>
+
+    <!--Main Services-->
+    <section class="bg-dg">
+      <h1 class="sec-header lato fw-bold text-center text-white mx-auto p-2 fs-6">Main Services</h1>
+      <div class="d-md-flex flex-direction-md-column flex-nowrap justify-content-md-evenly mx-md-auto py-md-5 services">
+        <div class=" service">
+          <img class="image-fluid my-1" src="https://img.icons8.com/ios-filled/45/ffffff/podium-with-speaker.png"
+            alt="#" />
+          <h6 class="lato fw-bold text-red">Lecture</h6>
+          <div>
+            <p class="text-white lato text-left">Listen to the speakers from various countries sharing their expertise
+              in the domain of technologie.</p>
+          </div>
+        </div>
+        <div class=" service">
+          <img class="image-fluid" src="https://img.icons8.com/dotty/45/ffffff/comment-discussion.png" alt="#" />
+          <h6 class="lato fw-bold text-red">forum</h6>
+          <div>
+            <p class="text-white lato text-left">Have the time to share you toughts and opinins with experts from eatch
+              topic</p>
+          </div>
+        </div>
+        <div class=" service">
+          <img class="image-fluid" src="https://img.icons8.com/metro/45/ffffff/class.png" alt="#" />
+          <h6 class="lato fw-bold text-red">Workshop</h6>
+          <div>
+            <p class="text-white lato text-left">Gain new skills by joining our workshops and get your license.</p>
+          </div>
+        </div>
+        <div class=" service">
+          <img class="image-fluid" src="https://img.icons8.com/material-sharp/45/ffffff/mesh.png" alt="#" />
+          <h6 class="lato fw-bold text-red">Ignite</h6>
+          <div>
+            <p class="text-white lato text-left">Get opportunities to network with engineers and experts.</p>
+          </div>
+        </div>
+      </div>
+      <!--Join us-->
+      <a class="btn text-white lato rounded-0 p-3 bg-red w-100 fs-6 mt-4 d-md-none" href="./tickets.html"
+        role="button">Join us get a seat now</a>
+      <a href="#" class="text-center link-light mx-auto d-none d-md-block text-uppercase">See the whole program</a>
+    </section>
+    <!--Team-->
+    <section class="bg-white pb-3 row w-100 mx-auto">
+      <h1 class="sec-header lato fw-bold text-center text-black mx-auto p-2 fs-6">Our Team</h1>
+      <div class="col-md-4 col-xl-5 mx-md-5">
+        <div class="member  ">
+          <div class="mem-img">
+            <img src="images/flan2.jpg" class="img-fluid" alt="t">
+          </div>
+          <div class="mem-text">
+            <h5 class="text-black coco fw-bold">Felan Fertlan</h5>
+            <p class="text-red desc">Software engineer and entrepreneur. </p>
+            <p class="coco subdsc text-secondary">Flan studies software engineering and is an entrepreneur</p>
+          </div>
+        </div>
+        <div class="member  ">
+          <div class="mem-img">
+            <img src="images/flan2.jpg" class="img-fluid" alt="t">
+          </div>
+          <div class="mem-text">
+            <h5 class="text-black coco fw-bold">Nouna Saghnouna</h5>
+            <p class="text-red desc">Software engineer and entrepreneur. </p>
+            <p class="coco subdsc text-secondary">Nouna studies software engineering and is an entrepreneur</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 col-xl-5 mx-md-5 d-none d-md-block">
+        <div class=" member  ">
+          <div class="mem-img">
+            <img src="images/flan2.jpg" class="img-fluid" alt="t">
+          </div>
+          <div class="mem-text">
+            <h5 class="text-black coco fw-bold">Felan Fertlan</h5>
+            <p class="text-red desc">Software engineer and entrepreneur. </p>
+            <p class="coco subdsc text-secondary">Nouna studies software engineering and is an entrepreneur</p>
+          </div>
+        </div>
+        <div class="member  ">
+          <div class="mem-img">
+            <img src="images/flan2.jpg" class="img-fluid" alt="t">
+          </div>
+          <div class="mem-text">
+            <h5 class="text-black coco fw-bold">Felan Fertlan</h5>
+            <p class="text-red desc">Software engineer and entrepreneur. </p>
+            <p class="coco subdsc text-secondary">Nouna studies software engineering and is an entrepreneur</p>
+          </div>
+        </div>
+
+      </div>
+      <button type="button"
+        class="d-md-none btn btn-outline-secondary text-black lato text-uppercase bpad mx-auto">More</button>
+    </section>
+  </main>
+  <footer class="bg-footer pb-1 w-100 text-center">
+    <div class="bg-black py-4">
+      <h6 class=" sec-header lato fw-bold text-center text-black mx-auto p-2 text-grey">Partners</h6>
+      <div class="d-flex flex-row justify-content-evenly ">
+        <img src="https://img.icons8.com/android/45/ffffff/star.png" alt="#" />
+        <img src="https://img.icons8.com/office/45/ffffff/left-view.png" alt="#" />
+        <img src="https://img.icons8.com/wired/45/ffffff/hexagon.png" alt="#" />
+      </div>
+    </div>
+    <p class="py-4 text-center">CC creative commons Design idea belongs to Cindy Shin</p>
+  </footer>
 </body>
+
 </html>

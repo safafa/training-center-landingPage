@@ -1,11 +1,439 @@
 /* Lato */
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 /* cocogoose */
-@import url("https://db.onlinewebfonts.com/c/d14035f6b1afeabafbee4abb2ebf0fc6?family=COCOGOOSE");
+@import url("https://db.onlinewebfonts.com/c/b4e46f03d0e03a9192dc3c2ad1a4e104?family=Cocogoose");
 
 :root {
   --black: #272a31;
   --red: #ec5242;
   --grey: #d3d3d3;
+  --lato: "Lato", sans-serif;
+  --coco: "Cocogoose";
+}
+
+/* Colors background and text */
+.bg-red {
+  background-color: var(--red);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.bg-grey {
+  background-color: var(--grey);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.text-black {
+  color: var(--black);
+}
+
+.text-grey {
+  color: var(--grey);
+}
+
+#navborder {
+  border-style: solid;
+  border-color: var(--red);
+  text-align: center;
+  color: #ec5242;
+}
+
+.nav-link:active {
+  color: var(--red);
+}
+
+.navwidth {
+  width: 41%;
+}
+
+/* font family */
+.lato {
+  font-family: var(--lato);
+}
+
+.coco {
+  font-family: var(--coco);
+}
+
+.bg-footer {
+  background-color: white;
+  color: var(--black);
+}
+
+/* I copied this code from a tutorial showing how to create small border for an element */
+.sec-header::after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 30px; /* Change this to whatever width you want. */
+  padding-top: 10px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid var(--red); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.desc::after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 15px; /* Change this to whatever width you want. */
+  padding-top: 10px; /* This creates some space between the element and the border. */
+  border-bottom: 1px solid var(--grey); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.subdsc {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.bpad {
+  padding: 20px 100px;
+  width: 90%;
+}
+
+.bg-lg {
+  background-image: url("images/bg-lg.jpg");
+  height: auto;
+}
+
+.bg-dg {
+  background-image: url("images/bg-dg.jpg");
+  width: 100%;
+  padding: 50px 10px;
+}
+
+.transparent {
+  font-size: 2em;
+}
+
+.title p {
+  font-size: 2.5vw;
+}
+
+.open {
+  font-size: 5vw;
+}
+
+.local {
+  font-size: 3vw;
+}
+
+/* Main services */
+.services {
+  width: 100%;
+}
+
+.service {
+  background-color: #b6b3b350;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.service h6 {
+  text-align: center;
+  margin: auto 10px;
+  width: 25%;
+  text-transform: capitalize;
+  align-self: center;
+}
+
+.servive img {
+  align-self: flex-start;
+  width: 25vw;
+  height: auto;
+  margin: 10px 10px;
+}
+
+.service p {
+  width: 50vw;
+  font-size: 11px;
+  align-self: flex-end;
+  margin: 10px 10px;
+}
+
+/* Our team */
+.member {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 30px 5px;
+}
+
+.mem-img {
+  position: relative;
+  width: 200px;
+  background-image: url("images/bw.jpg");
+  background-repeat: no-repeat;
+  background-position: 25% 10%;
+  background-size: 50px;
+  margin: 0 25px 10px 0;
+}
+
+.mem-img img {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  width: 110px;
+  max-height: 90%;
+}
+
+.mem-text p {
+  font-size: 11px;
+}
+
+/* About page */
+.event {
+  background-image:
+    linear-gradient(var(--red), #ec534285),
+    url("images/event.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: none;
+}
+
+/* Tickets */
+.tablet {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  height: 30vh;
+  width: fit-content;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.ignit {
+  grid-row-start: 3;
+  grid-row-end: 5;
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+
+.item {
+  border-top: 1px solid rgba(0, 0, 0, 0.8);
+  border-left: 1px solid rgba(0, 0, 0, 0.8);
+  margin: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.step {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 500px;
+  border-width: 1px;
+  border-color: var(--red);
+  padding: 15px 5px;
+  margin: 50px auto;
+  font-size: 10px;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px auto;
+  height: 200px;
+}
+
+.table {
+  border: 7px solid transparent;
+  border-image: 7 repeating-linear-gradient(45deg, var(--black) 0, var(--black) 2em, var(--light-white) 0, var(--light-white) 3em);
+  color: var(--light-gray);
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 1fr;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    display: block;
+    width: 100px;
+    height: 50px;
+    padding: 0 0 0 0;
+  }
+
+  .background {
+    background-color: white;
+  }
+
+  .navbar-nav {
+    margin: 0 auto;
+  }
+
+  /* Main services */
+  .services {
+    width: 75%;
+  }
+
+  .service {
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 24%;
+  }
+
+  .service h6 {
+    width: auto;
+  }
+
+  .service p {
+    width: auto;
+    text-align: center;
+  }
+
+  /* Our team */
+  .mem-img {
+    margin: 0 40px 10px 0;
+  }
+
+  .mem-img img {
+    height: 60%;
+    margin-right: 90px;
+  }
+
+  .title {
+    width: 75%;
+    margin: 0 0 0 150px;
+  }
+
+  .hgroup {
+    width: 90%;
+  }
+
+  .title p {
+    width: 85%;
+    font-size: 1.7vw;
+  }
+
+  .title span {
+    width: 50%;
+  }
+
+  .open {
+    font-size: 2.5vw;
+  }
+
+  .local {
+    font-size: 2vw;
+  }
+
+  /* about */
+  .title-about {
+    width: 75%;
+    margin: auto;
+  }
+
+  .title-about header {
+    width: 50%;
+    margin: auto;
+  }
+
+  .title-about p {
+    max-width: 65%;
+    margin: auto;
+  }
+
+  .events {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+
+  .event {
+    margin: 0;
+  }
+
+  .bg-footer {
+    background-color: var(--black);
+    color: white;
+  }
+
+  /* Tickets */
+  .item {
+    font-size: 1.5vw;
+  }
+
+  .activities {
+    width: 75%;
+  }
+
+  .tablet {
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .mem-img {
+    margin: 0 10px 10px 0;
+  }
+
+  .mem-img img {
+    left: 30%;
+    height: 90%;
+    margin-right: 5px;
+  }
+
+  .hgroup {
+    width: 80%;
+  }
+
+  .title p {
+    width: 60%;
+    font-size: 0.9vw;
+  }
+
+  .open {
+    font-size: 1.5vw;
+  }
+
+  .local {
+    font-size: 1vw;
+  }
+
+  .events {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 65%;
+    margin: auto;
+    justify-content: space-around;
+  }
+
+  .event {
+    margin: 0;
+  }
+
+  /* Main services */
+  .services {
+    width: 45%;
+  }
+
+  .service {
+    width: 22%;
+    height: auto;
+  }
+
+  /* Tickets */
+  .step {
+    font-size: 1vw;
+  }
 }
