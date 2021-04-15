@@ -376,6 +376,10 @@
   .activities {
     width: 75%;
   }
+  
+  .tablet {
+    width: 75%;
+  }
 }
 
 @media screen and (min-width: 992px) {
