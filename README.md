@@ -25,7 +25,7 @@ I created this project following the [design](https://www.behance.net/gallery/29
 
 ## Live Demo
 
-[Live Demo Link](https://safafa.github.io/raining-center-landingPage/)
+[Live Demo Link](https://safafa.github.io/training-center-landingPage/)
 
 ## Getting Started
 
